@@ -1,0 +1,30 @@
+body {
+ background-color: #bccce6;
+ font-family:Arial;
+ text-align: center;
+ }
+
+header  {
+	background-color:#ffbd66;
+ }
+header li{
+padding: 10px;
+display: inline;
+list-style-type:none;
+ }
+ h1 {
+ color: #042963;
+ padding: 20px;
+ }
+  button {
+ color: #042963;
+ padding: 10px;
+ border-radius: 10px;
+ }
+ table  {
+	background-color:#ffbd66;
+  max-width:500px;
+  padding:16px;	 
+   margin-left: auto;
+  margin-right: auto;
+ }

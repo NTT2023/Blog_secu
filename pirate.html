@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+<input type="text" id="session" name="session" value="">
+<input type="button" value="Affecter session" onclick="setSession()">
+    </form>
+lien vers le vrai site :
+<a href="http://localhost/TP1_blog/index.php">vers Blog</a> 
+
+    <script>
+function setSession()  {
+    var session_id = document. getElementById("session").value;
+    document.cookie = "PHPSESSID="+session_id;
+}
+    </script>
+    
+</body>
+</html>
